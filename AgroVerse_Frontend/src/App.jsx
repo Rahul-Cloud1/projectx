@@ -8,6 +8,8 @@ import FeatureCard from './components/FeatureCard';
 import features from './data/features';
 import ProductList from './components/ProductList';
 
+
+
 const KrishiMitra = lazy(() => import('./pages/KrishiMitra'));
 const AgroMart = lazy(() => import('./pages/AgroMart'));
 const AgroRent = lazy(() => import('./pages/AgroRent'));
@@ -222,3 +224,4 @@ function App() {
 }
 
 export default App;
+
